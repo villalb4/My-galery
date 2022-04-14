@@ -12,6 +12,7 @@ body {
   justify-content: center;
   font-family: 'montserrat';
   font-weight: 600;
+  padding: 0 3%;
 }
 
 .user {
@@ -70,7 +71,7 @@ h1 {
 
 .publications {
   display: grid;
-  gap: 25px;
+  gap: 3%;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   max-width: 956px;
@@ -118,4 +119,11 @@ h1 {
   text-decoration: none;
   font-weight: 700;
   color: #B9BDCF;
+}
+
+
+@media screen and (max-width: 799px) {
+    .publications {
+    margin-bottom: 44px;
+  }
 }
